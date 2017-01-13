@@ -1,0 +1,5 @@
+console.log('=========================================')
+console.log('starting...')
+console.log('running nodejs built by drone...')
+console.log('done...')
+console.log('=========================================')

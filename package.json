@@ -1,0 +1,23 @@
+{
+  "name": "drone-nodejs-spike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "tape *.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drone-demos/drone-with-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drone-demos/drone-with-nodejs/issues"
+  },
+  "homepage": "https://github.com/drone-demos/drone-with-nodejs#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
