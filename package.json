@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uldissturms/drone-nodejs-spike.git"
+    "url": "git+https://github.com/drone-demos/drone-with-nodejs.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/uldissturms/drone-nodejs-spike/issues"
+    "url": "https://github.com/drone-demos/drone-with-nodejs/issues"
   },
-  "homepage": "https://github.com/uldissturms/drone-nodejs-spike#readme",
+  "homepage": "https://github.com/drone-demos/drone-with-nodejs#readme",
   "devDependencies": {
     "tape": "^4.6.3"
   }
