@@ -1,0 +1,23 @@
+{
+  "name": "drone-nodejs-spike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "tape *.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uldissturms/drone-nodejs-spike.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uldissturms/drone-nodejs-spike/issues"
+  },
+  "homepage": "https://github.com/uldissturms/drone-nodejs-spike#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
