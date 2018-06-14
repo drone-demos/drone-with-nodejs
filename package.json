@@ -1,0 +1,26 @@
+{
+  "name": "drone-with-nodejs",
+  "version": "1.0.0",
+  "description": "An example NodeJS repo with Drone test/build",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha -R spec spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drone-demos/drone-with-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drone-demos/drone-with-nodejs/issues"
+  },
+  "homepage": "https://github.com/drone-demos/drone-with-nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0"
+  }
+}
