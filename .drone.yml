@@ -8,4 +8,4 @@ pipeline:
     image: plugins/docker
     repo: drone/node-demo
     secrets: [ docker_username, docker_password ]
-    dry_run: true # remove this to publish
+    dry_run: true #doing build testing
