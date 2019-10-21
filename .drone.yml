@@ -17,7 +17,7 @@ steps:
     - npm test
     
 - name: code-analysis
-  image: aosapps/drone-sonar-plugin:1.0
+  image: aosapps/drone-sonar-plugin
   settings:
     sonar_host:
       from_secret: sonar_host
