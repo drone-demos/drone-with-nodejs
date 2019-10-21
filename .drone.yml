@@ -16,10 +16,10 @@ steps:
   commands:
     - npm test
     
-- name: code-analysis
-  image: aosapps/drone-sonar-plugin:1.0
-  settings:
-    sonar_host:
-      from_secret: sonar_host
-    sonar_token:
-      from_secret: sonar_token
+ - name: code-analysis
+    image: aosapps/drone-sonar-plugin
+    environment:
+      sonar_host:
+        from_secret: sonar_host
+      sonar_token:
+        from_secret: sonar_token
