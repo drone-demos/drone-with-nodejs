@@ -1,6 +1,17 @@
-pipeline:
-  build:
-    image: node
-    commands:
-      - npm install
-      - npm test
+---
+kind: pipeline
+name: nonprod
+type: docker
+
+
+steps:
+
+- name: Build
+  image: node
+  commands:
+    - npm install
+    
+- name: Test
+  image: node
+  commands:
+    - npm test
