@@ -18,8 +18,6 @@ steps:
     
 - name: code-analysis
   image: aosapps/drone-sonar-plugin:1.0
-  volumes:
-  - name: coverage-server
   settings:
     sonar_host:
       from_secret: sonar_host
